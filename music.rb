@@ -3,7 +3,7 @@
 # This method should accept a hash as an argument.
 
 def list_artists(music)
-  puts music.each_key
+  print music.each_key
 end
 
 
