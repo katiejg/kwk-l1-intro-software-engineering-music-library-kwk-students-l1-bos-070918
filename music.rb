@@ -3,7 +3,9 @@
 # This method should accept a hash as an argument.
 
 def list_artists(music)
-  print music.each_key
+  music.each_key do |artist|
+    print
+  end
 end
 
 
