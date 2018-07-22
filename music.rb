@@ -28,8 +28,9 @@ end
 
 #4. This method should add a new artist and song (key value pair) to the hash and return the updated hash. 
 # This method should accept three arguments, the library hash, the artist, and the song.
-def add_song_and_artist
-  
+def add_song_and_artist(music, artist, song)
+  music[artist] = song
+  return music
 end
 
 
