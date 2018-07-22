@@ -4,7 +4,7 @@
 
 def list_artists(music)
   music.each_key do |artist|
-    print
+    print "#{artist}"
   end
 end
 
